@@ -1,0 +1,38 @@
+:root{
+    --white: #fff;
+    --blue: #81f5ff;
+}
+
+body{
+    margin: 0;
+    background-color: var(--blue);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;   
+}
+
+.ContenedorPrincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+
+}
+.ContenedorUno{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--white);
+    border: 5px solid saddlebrown;
+    border-radius: 10%;
+}
+.ContenedorDos{
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-color: yellow;
+    border: 5px solid rgb(51, 19, 139);
+    border-radius: 50%;
+
+}
