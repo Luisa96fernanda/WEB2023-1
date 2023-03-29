@@ -169,18 +169,12 @@ console.log(banderas);
 
 //3. crear una funcion flecha que haga uso de la clase Construida y el objeto declarado.
 
+const result = ()=> {
+    let banderas = new habitantes('7','Alemania','negro + amarillo + rojo',450);
+    console.log(banderas);
 
-const Nompersona ={
-    Nom: 'juan esteban',
-    Apel: 10
-};
-class Person {
-    constructor (Nom, Apel) {
-      this.Nom = Nom;
-      this.Apel = Apel;
-    }
-};  
-const result = ({Nom})=> Nom ;  
-console.log(result(Nompersona));
+    console.log(tablaNutricional.identificacion()+' '+tablaNutricional.Paciente());
+} ;  
+console.log(result());
 
 
